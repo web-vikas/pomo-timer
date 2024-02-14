@@ -73,7 +73,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex flex-col mt-24 items-center justify-center">
+    <main className="flex flex-col min-h-screen items-center justify-center">
       <div className="flex gap-3 items-center flex-col md:flex-row">
         <div className="flex gap-3 w-72 relative">
           <span className="absolute -top-4 md:-top-7 text-red-400">Hours</span>
